@@ -1,0 +1,109 @@
+#schedule {
+  margin-top: 50px;
+  font-family: 'gobold', sans-serif;
+  color: #fff;
+}
+
+.edicaoLabel {
+  margin-bottom: 7px;
+  font-size: 1.2em;
+}
+
+.edicaoAnterior, .edicaoFutura {
+  height: 270px;
+  margin-top: 30px;
+}
+
+.edicaoFutura .cardEdicaoFutura img {
+  position: absolute;
+}
+
+.cardEdicaoAnterior,
+.cardEdicaoFutura {
+  position: absolute;
+  width: 595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.edicaoAnterior .cardEdicaoAnterior img {
+  position: absolute;
+}
+
+.cardEdicaoAnterior .cardDataLocal,
+.cardEdicaoFutura .cardDataLocal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 15px 15px;
+  background-color: #FB5900;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cardEdicaoAnterior .eventName,
+.cardEdicaoFutura .eventName {
+  display: block;
+  font-size: 2.5em;
+  margin-top: 40px;
+  color: #FB5900;
+}
+
+.cardEdicaoAnterior .soldOutLabel,
+.cardEdicaoFutura .soldOutLabel {
+  font-size: 4em;
+}
+
+.cardEdicaoFutura .coomingSoonLabel {
+  font-size: 2.5em;
+}
+
+.proximaEdicao {
+  margin-top: 50px;
+  width: 650px;
+  height: 550px;
+}
+
+.proximaEdicao .eventInfo {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.proximaEdicao .eventInfo .eventName {
+  font-size: 4em;
+  color: #FB5900;
+}
+
+.proximaEdicao .eventInfo .dateAndPlace {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proximaEdicao .eventInfo .dateAndPlace p {
+  font-size: 1.2em;
+}
+
+.proximaEdicao .eventInfo .btnBuyNow {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #FB5900;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 1.2em;
+}

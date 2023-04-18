@@ -1,0 +1,80 @@
+.about {
+
+}
+
+.about .column-left {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .column-left h1 {
+  margin-top: 50px;
+  font-family: 'gobold', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.about .column-left .about-text {
+  margin-top: 20px;
+  color: #fff;
+  font-family: arial;
+  max-width: 90%;
+  font-family: 'roboto', sans-serif;
+}
+
+.about .column-left ul {
+  display: block;
+  margin-top: 50px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.about .column-left ul li {
+  background-color: #282727;
+  border-radius: 7px;
+  margin-top: 10px;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2em;
+  transition: background-color 0.5s;
+  text-transform: uppercase;
+}
+
+.about .column-left ul li img {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about .column-left ul li.btnBuyNow {
+  background-color: #FB5900;
+  width: 100%;
+  text-align: center;
+}
+
+.about .column-left ul li a {
+  width: 100%;
+}
+
+.about .column-left ul li.btnBuyNow a:hover {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.about .column-left ul li:hover {
+  background-color: #FB5900;
+}
+
+.about .column-right {
+  min-width: 50%;
+}
+
+.about .column-right img {
+  float: right;
+  margin-top: 50px;
+}

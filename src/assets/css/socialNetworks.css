@@ -1,0 +1,25 @@
+#socialNetworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-bottom: 50px;
+
+  font-family: 'gobold', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#socialNetworks h5 {
+  font-size: 1.2em;
+}
+
+#socialNetworks h3 {
+  color: #FB5900;
+  font-size: 2em;
+}
+
+#socialNetworks ul {
+  margin: 20px 0px 0px 0px;
+}

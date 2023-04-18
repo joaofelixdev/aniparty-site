@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "gobold";
+  src: url("../fonts/Gobold\ Bold.otf") format("otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1E1E1E;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.column-left,
+.column-right {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+}

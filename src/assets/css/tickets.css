@@ -1,0 +1,20 @@
+#tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#tickets p {
+  color: #fff;
+  font-family: 'gobold', sans-serif;
+  text-transform: uppercase;
+}
+
+#tickets a img {
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 50px;
+}

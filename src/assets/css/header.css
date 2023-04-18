@@ -1,0 +1,84 @@
+header {
+  background-color: #ccc;
+  width: 100%;
+  height: 700px;
+  background-image: url('../images/fundo-header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+}
+
+header .container .eventInfo {
+  padding: 30px 50px 30px 30px;
+  align-self: center;
+  justify-self: left;
+  min-width: 400px;
+  min-height: 200px;
+  background-color: rgba(20, 25, 25, 0.4);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  font-family: 'gobold', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 30px;
+  animation-name: eventInfoAnimation;
+  animation-duration: 2s; 
+  animation-iteration-count: infinite;
+  transition: margin 0.3s;
+}
+
+header .container .eventInfo .nextEditionText {
+  font-size: 1.2em;
+  margin-left: 2px;
+}
+
+header .container .eventInfo .nextEditionTitle {
+  font-size: 3.5em;
+  color: #FB5900;
+}
+
+header .container .eventInfo .nextEditionDate {
+  font-size: 1.2em;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+header .container .eventInfo .nextEditionPlace {
+  font-size: 1.2em;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+header .container .eventInfo .btnBuyNow {
+  margin-top: 10px;
+  align-self: flex-start;
+  padding: 15px 30px;
+  background-color: #FB5900;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'gobold', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+header .container .eventInfo .btnBuyNow:hover {
+  background-color: #CE4900;
+}
+
+@keyframes eventInfoAnimation {
+  0%   {margin-top: 10px;}
+  50%  {margin-top: 15px;}
+  100% {margin-top: 10px;}
+}
+
+@keyframes eventInfoAnimationA {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}

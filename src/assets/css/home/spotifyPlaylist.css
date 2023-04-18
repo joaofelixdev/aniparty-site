@@ -1,0 +1,52 @@
+#spotifyPlaylist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#spotifyPlaylist a {
+  text-decoration: none;
+}
+
+.spotifyBanner {
+  width: 700px;
+  height: 150px;
+
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'gobold', sans-serif;
+}
+
+.spotifyBanner .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spotifyBanner .content p {
+  font-size: 2em;
+}
+
+.spotifyBanner .spotifyLogo {
+  position: absolute;
+  left: 20px;
+  top: 35px;
+  width: 80px;
+}
+
+.spotifyBanner .spotifyCharacter {
+  position: absolute;
+  right: -50px;
+  top: -50px;
+}
